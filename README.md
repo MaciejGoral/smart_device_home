@@ -10,7 +10,7 @@ npm install
 npm run serve
 ```
 
-### Run fake backend
+### Run fake backend (json server)
 ```
 npm run backend
 ```
