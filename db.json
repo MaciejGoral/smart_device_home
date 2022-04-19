@@ -1,0 +1,76 @@
+{
+  "smartDevice": [
+    {
+      "type": "bulb",
+      "id": 1,
+      "name": "Bulb 1",
+      "connectionState": "connected"
+    },
+    {
+      "type": "bulb",
+      "id": 2,
+      "name": "Bulb 2",
+      "connectionState": "disconnected"
+    },
+    {
+      "type": "outlet",
+      "id": 3,
+      "name": "Outlet 1",
+      "connectionState": "disconnected"
+    },
+    {
+      "type": "temperatureSensor",
+      "id": 4,
+      "name": "Temperature Sensor 1",
+      "connectionState": "disconnected"
+    },
+    {
+      "type": "temperatureSensor",
+      "id": 5,
+      "name": "Temperature Sensor 2",
+      "connectionState": "poorConnection"
+    }
+  ],
+  "SmartDeviceDetails": [
+    {
+      "type": "bulb",
+      "id": 1,
+      "name": "Bulb 1",
+      "connectionState": "connected",
+      "isTurnedOn": true,
+      "brightness": 50,
+      "color": "red"
+    },
+    {
+      "type": "bulb",
+      "id": 2,
+      "name": "Bulb 2",
+      "connectionState": "disconnected",
+      "isTurnedOn": false,
+      "brightness": 99,
+      "color": "#7FFFD4"
+    },
+    {
+      "type": "outlet",
+      "id": 3,
+      "name": "Outlet 1",
+      "connectionState": "disconnected",
+      "isTurnedOn": true,
+      "powerConsumption": 50
+    },
+    {
+      "type": "temperatureSensor",
+      "id": 4,
+      "name": "Temperature Sensor 1",
+      "connectionState": "disconnected",
+      "temperature": 20
+    },
+    {
+      "type": "temperatureSensor",
+      "id": 5,
+      "name": "Temperature Sensor 2",
+      "connectionState": "poorConnection",
+      "temperature": 30
+    }
+  ]
+}
