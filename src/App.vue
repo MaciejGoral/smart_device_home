@@ -103,7 +103,7 @@ export default {
         for(var i=1;i<this.smartDevice.length+1;i++)
         {
           var connectionState = Math.floor(Math.random() * 3);
-          const response = await fetch('api/v1/devices/' + i, {
+          const response = await fetch('https://smart-device-home2.herokuapp.com/smartDevice/' + i, {
             method: 'PATCH',
             headers: {
               'Content-Type': 'application/json'
@@ -113,7 +113,7 @@ export default {
             })
           });
           await response.json();
-          const response2 = await fetch('http://localhost:5000/smartDevice/' + i, {
+          const response2 = await fetch('https://smart-device-home2.herokuapp.com/SmartDeviceDetails/'+ i, {
             method: 'PATCH',
             headers: {
               'Content-Type': 'application/json'
