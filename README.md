@@ -12,5 +12,5 @@ npm run serve
 
 ### Run fake backend (json server)
 ```
-npm run backend
+npm run start
 ```
