@@ -87,13 +87,13 @@ export default {
       },
       async fetchDevices() //fetching devices from backend
       {
-        const response = await fetch('api/v1/devices');
+        const response = await fetch('https://smart-device-home2.herokuapp.com/smartDevice');
         const data = await response.json();
         this.smartDevice = data;
       },
       async fetchDetail(id) //fetching single device details from backend
       {
-        const response = await fetch('api/v1/devices/' + id);
+        const response = await fetch('https://smart-device-home2.herokuapp.com/SmartDeviceDetails/' + id);
         const data = await response.json();
         this.chosenDevice = data;
       },
